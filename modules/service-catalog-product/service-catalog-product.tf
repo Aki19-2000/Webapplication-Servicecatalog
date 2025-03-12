@@ -11,7 +11,7 @@ resource "aws_servicecatalog_product" "example" {
     name                         = "v1"
     description                  = "Version 1"
     type                         = "EXTERNAL"  # Ensure this is set to EXTERNAL
-    template_url                 = "modules/service-catalog-product/s3bucket.tar.gz"
+    template_url                 = "modules/service-catalog-product/webapp1.tar.gz"
     disable_template_validation  = true
   }
 }
